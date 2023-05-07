@@ -1,0 +1,52 @@
+html, body { height: 90%; padding: 0; margin: 0; }
+#option1,#option2,#option3,#option4{
+    width: 50%; height: 50%; float: left;
+}
+#option1{
+    background-color: #4CAF50;
+}
+#option2{
+    background-color: #f94a1e;
+}
+#option3{
+    background-color: #3399ff;
+}
+#option4{
+    background-color: #ff9933;
+}
+
+#buttons{
+    text-align: center;
+}
+#nameText{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+#scoreText{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+#message{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+#home{
+    border: none;
+    border-radius: 0.5rem;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: .5rem 1rem;    
+    margin: 0 auto 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    background-color: var(--grey-color);
+    color: var(--dark-color);
+    letter-spacing: 2px;
+    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #bbbbbb;
+    display: none;
+}
